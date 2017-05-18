@@ -8,12 +8,6 @@
 
 using namespace std;
 
-/**
-This program publishes the pose of a moving object over
-a serial connection.
-At the start of a  specified period, two independent, random axes (x,y,z) 
-are selected  for translation/rotation, and the probe moves along/around them 
-*/
 
 DigitalOut led1(LED1);
 DigitalOut led2(LED2);
